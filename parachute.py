@@ -30,7 +30,7 @@ def get_ring_ciphertext(fc, reverse=False, codewidth=10):
 
 
 # Ciphertext from file
-f = open("c:/Users/Matt/Downloads/mars_parachute/parachute.txt","r")
+f = open("parachute.txt","r")
 fc = []
 for l in f:
     fc.append([c for c in l])
